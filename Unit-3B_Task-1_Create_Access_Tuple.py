@@ -1,0 +1,5 @@
+tuple_data = ("Black", "maroon", "Navy Blue", "white")
+print("Tuple:", tuple_data)
+print("First:", tuple_data[2])
+print("Last:", tuple_data[-1])
+print("Length:", len(tuple_data))
