@@ -1,0 +1,10 @@
+set_data = {1, 2, 3}
+print("Set:", set_data)
+print("20 in set?", 2 in set_data)
+print("40 not in set?", 4 not in set_data)
+set_data.add(4)
+print("After add:", set_data)
+set_data.remove(1)
+print("After remove:", set_data)
+set_data.discard(99)
+print("After discard:", set_data)
